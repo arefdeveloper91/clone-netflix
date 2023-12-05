@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 150px;
+        
+}
+.logo {
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    left: 200px;
+    top: 50px;
+
+    
+   
+}
+
+
+.quem_ta_assistindo {
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 6px;
+      
+}
+
+.section-usuarios {
+    margin: 60px ;
+}
+
+main {
+    color: #9C9C9C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+    
+}
+section {
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.usuarios {
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-evenly ;
+        width: 700px;
+}
+
+.usuario_nome {
+    color: #9C9C9C;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 0px 0px;
+}
+button {
+    color: #9C9C9C;
+    font-size: 16px;
+    background-color: #111111;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 44px 15px 44px;
+}
+#filho-um {
+    display: flex;
+
+}
+
+.usuario-li { width: 160px;
+    height: 150px;
+
+}
+.div-img{
+    border-radius: 13px;
+    margin: 0px 0px 16px 0px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+}
+
+.usuario_img{
+    border-radius: 12px;
+    margin: 0px 0px 16px 0px;
+    cursor: pointer;
+    overflow: hidden;  
+    transition: 1.3s;
+    transform: scale(1.5);
+}
+
+.div-img:hover {
+    transform: scale(1.5);
+
+}
+
+.usuario_img:hover {
+    transform: scale(1.5);
+}
+
